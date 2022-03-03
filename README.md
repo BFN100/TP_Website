@@ -6,6 +6,8 @@ TP_Website
 
 This project was a work done for the Introduction to Web Programming.
 
+Note: The site is in French because my course is being taught in French.
+
 ##
 
 The image below shows the beginning of the homepage:
