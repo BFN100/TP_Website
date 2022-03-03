@@ -1,0 +1,141 @@
+<!-- 
+Auteur : Bianca Fernandes Nascimento
+Date : 01.02.2022
+Raison : Mon professeur nous a demandé de créer un site Web avec ces caractéristiques, alors je l'ai créé.
+-->
+
+<!DOCTYPE html>
+<!-- Le « lang » sert à dire quelle langue sera utilisée dans le développement de notre site, qui dans ce cas sera le français -->
+<html lang="fr">
+<!-- Dans la "tête" nous mettrons les principaux paramètres de notre site -->
+
+<head>
+    <meta charset="utf-8">
+    <!-- Ici, j'identifie que j'utiliserai le fichier CSS appelé "style" pour styliser mon site Web -->
+    <link rel="stylesheet" href="css/style_index.css">
+</head>
+
+<body>
+    <!-- Cette "section" est juste pour le dès que j'ai inséré dans le "head" -->
+    <section class="logo">
+        <span class="img">
+            <img src="img/logo.png" alt="Logo">
+        </span>
+    </section>
+    <!-- Ici commence le menu -->
+    <section class="menu">
+        <!-- Dans cette "nav" commence la liste qui forme le menu -->
+        <nav>
+            <ul class="list-menu">
+                <li class="element-menu">
+                    <a class="lien-menu" href="index.html">
+                        Page d'accueil
+                    </a>
+                </li>
+                <!-- Ici se termine le lien vers la page principale -->
+                <li class="element-menu">
+                    <a class="lien-menu" href="IntroductProgWeb.html">
+                        Introduction à la Programmation Web
+                    </a>
+                </li>
+                <!-- Ici se termine le lien vers la page Introduction à la programmation web -->
+                <li class="element-menu">
+                    <a class="lien-menu" href="ReseauxInformatiques.html">
+                        Reseaux Informatiques
+                    </a>
+                </li>
+                <!-- Ici se termine le lien vers la page de La Sécurité de L'information -->
+                <li class="element-menu">
+                    <a class="lien-menu" href="SecuriteDeLinformation.html">
+                        La Sécurité de L'information
+                    </a>
+                </li>
+                <!-- Ici se termine le lien vers la page de sécurité de l'information -->
+                <li class="element-menu">
+                    <a class="lien-menu" href="Presentation.html">
+                        Presentation
+                    </a>
+                </li>
+                <!-- Ici se termine le lien vers la page Présentation -->
+                </li>
+            </ul>
+            <!-- Ici se termine la liste des menus -->
+        </nav>
+    </section>
+    <!-- Ici se termine le menu -->
+    <!-- La "section " appelée "contenu ", sera le contenu de la page-->
+    <section class="general-contenu ">
+        <!-- Dans cette partie, je vais insérer l'image de fond de la page principale, car les facultés utilisent généralement quelque chose comme ça -->
+        <div class="img_pg_accueil ">
+            <img src="img/etudiante.png " alt="Image de couverture ">
+        </div>
+        <div class="contenu ">
+            <!-- Ici j'ai mis un titre "h1 " et un paragraphe "p ", comme demandé par mon professeur -->
+            <h1>Mot de Bienvenue</h1><br>
+            <p> Bienvenue sur un site créé pour la matière d'introduction à la programmation web du cours Techniques de l'informatique profil programmation nouveaux médias. Dans ce cours, nous avons une charge de travail de 16 mois, ce n'est pas seulement
+                rapide, mais c'est un cours intensif très bien. J'apprends beaucoup et je suis très enthousiaste à l'idée de faire un stage et d'entrer dans le domaine que j'aime tant: le développement Web. Par conséquent, comme le professeur nous a demandé
+                de créer un site Web avec HTML et CSS et de montrer 3 sujets qui nous avons dans cette session, comme un moyen de de travail, je voudrais vous présenter un peu l'Institut Grasset et vous expliquer les sujets choisis dans ces quelques pages,
+                j'espère que cela vous plaira.
+            </p><br>
+            <!-- Ici se termine le contenu de bienvenue -->
+            <!-- Ici j'ai inséré quelques liens comme le professeur l'a demandé, mais je les ai mis à l'intérieur des images pour être sympa -->
+            <section class="liens">
+                <!-- Ceci est le texte expliquant les liens -->
+                <section class="texte-liens">
+                    <h2> Les images de gauche sont des liens respectivement vers la page d'accueil de l'institut grasset, vers la page du cours que je fais <i>Techniques de l'informatique, profil programmation nouveaux Médias</i>, et vers le stage page de
+                        notre collège, cliquez et parcourez ces pages.</h2>
+                </section>
+                <section class="box-institut">
+                    <!-- Cette session concerne le bouton du site de l'institut grasset-->
+                    <a class="box-img" href="https://www.institut-grasset.qc.ca/" target="_blank">
+                        <img class="img_institut" src="img/institut_grasset.jpg" />
+                    </a>
+                </section>
+                <!-- Fin de "section " de la classe "box-institut" -->
+                <!-- Dans cette partie je commence une autre "section" qui donnera vie à la partie "box-cours", e tera o link que enviara para a pagina do nosso curso do institut grasset-->
+                <section class="box-cours">
+                    <a class="box-img" href="https://www.institut-grasset.qc.ca/programmes/dec-en-techniques-de-linformatique-profil-programmation-nouveaux-medias-420-b0/" target="_blank">
+                        <img class="img_cours" src="img/technologie.png" />
+                    </a>
+                </section>
+                <!-- Fin de "section" de la classe "box-cours"-->
+                <section class="box-offres">
+                    <!-- Ici commence la partie du lien stage-->
+                    <a class="box-img" href="https://www.institut-grasset.qc.ca/employeurs-et-stages/" target="_blank">
+                        <img class="img-offres" src="img/stages.png" />
+                    </a>
+                </section>
+                <!-- Ici se termine la "box-offres" -->
+        </div>
+        <!--  Ici se termine la "div" du contenu-->
+        </section>
+        <!-- Ici se terminera la "section" de la classe "liens", qui englobe tout le contenu qui contient les liens -->
+        <!-- J'ai préféré insérer la vidéo en mettant un autre lien, ici commence la session de cette vidéo : -->
+        <section class="fonde_video">
+            <section class="texte-video">
+                <h2> Si vous souhaitez en savoir plus sur le collège de l'Institut Grasset, regardez la vidéo ci-dessous :</h2>
+            </section>
+            <!-- Ici j'ai inséré une vidéo de l'institut grasset que j'ai trouvé très cool -->
+            <iframe class="video" width="950" height="600" src="https://www.youtube-nocookie.com/embed/WgnhyFkYIPk?controls=0" loop autoplay title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                allowfullscreen></iframe><br>
+        </section>
+
+        <!-- J'ai choisi de laisser l'image séparée pour la rendre plus facile, mais ce sera le fond de la partie adresses -->
+        <img class="img-fonde" src="img/fonde-cadre.png" />
+        <!-- Ici je commence la partie "adresses", où je mets la google map avec l'adresse de l'institut grasset-->
+        <section class="endereço">
+            <h2 class="texte-endereço"> Découvrez l'emplacement de l'Institut Grasset :</h2>
+            <h3 class="info-endereço"> 220, Fairmount Ouest Montréal (Québec) H2T 2M7 </h3>
+            <iframe class="google-maps" src="https://www.google.com/maps/embed?pb=!1m26!1m12!1m3!1d44708.035822894824!2d-73.6099611020518!3d45.545251149970355!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!4m11!3e6!4m3!3m2!1d45.580173599999995!2d-73.5466876!4m5!1s0x4cc9197fb91fb073%3A0x8ef7924379a0f94b!2s220%20Av.%20Fairmount%20O%2C%20Montr%C3%A9al%2C%20QC%20H2T%202M7!3m2!1d45.5213365!2d-73.5965406!5e0!3m2!1spt-BR!2sca!4v1645126500464!5m2!1spt-BR!2sca"
+                width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+        </section>
+    </section>
+    <!-- Ici se termine la "section" du contenu-->
+</body>
+<!-- En "footer" on fait le pied de page de notre site -->
+<footer class="pied_de_page">
+    <p class="text"> © 2022 - Bianca Fernandes Nascimento </p>
+</footer>
+<!-- Ici se termine le pied de page du site -->
+
+</html>
