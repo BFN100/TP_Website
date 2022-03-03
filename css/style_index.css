@@ -1,0 +1,342 @@
+/* 
+Auteur : Bianca Fernandes Nascimento
+Date : 01.02.2022
+Raison : Mon professeur nous a demandé de créer un site Web avec ces caractéristiques, alors je l'ai créé.
+*/
+
+
+/* Cette partie stylisera toute la page, car elle est livrée avec une configuration par défaut des navigateurs qui gêne lors de la modification
+   les styles */
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+
+/* Ici, j'ai stylisé l'image du logo avec la taille et l'emplacement que je pensais être les meilleurs */
+
+.img img {
+    margin-left: 1rem;
+    margin-top: 1rem;
+    margin-bottom: -1.2rem;
+    width: 218px;
+    height: 82px;
+}
+
+
+/* Dans cette partie, j'ai défini la largeur de l'image sur 100 % juste pour m'assurer qu'elle a la qualité d'image d'origine */
+
+.logo {
+    width: 100%;
+}
+
+.menu {
+    max-width: 1514px;
+}
+
+
+/* Ici, j'ai changé la position du "nav" en relatif pour me permettre de changer la marge, car je voulais déplacer un peu le menu vers le haut */
+
+nav {
+    position: relative;
+    margin-top: -20;
+}
+
+nav .list-menu li a:hover {
+    font-weight: bolder;
+}
+
+
+/* Dans cette partie, j'ai configuré le menu pour qu'il soit horizontal, avec la marge spécifique et la taille de police générale du menu */
+
+.list-menu {
+    margin-top: 35px;
+    display: -webkit-inline-box;
+    margin-left: 10px;
+    font-size: medium;
+    -webkit-box-shadow: 6px 6px 6px -2px rgb(97, 98, 99);
+    -moz-box-shadow: 6px 6px 6px -2px rgb(148, 151, 151);
+    box-shadow: 6px 6px 6px -2px rgb(183, 186, 189);
+    /* box-shadow sert à séparer les parties du site et à travailler dans un ombrage */
+    /* site: https://cssmatic.com/box-shadow */
+}
+
+
+/* Ici, je voulais ajuster la marge et la largeur dans les éléments de mon menu dans la liste des menus, afin qu'ils soient comme je le voulais */
+
+ul.list-menu {
+    margin-left: 0.1rem;
+    padding-right: 1rem;
+}
+
+
+/* J'ai mis dans l'élément de menu, un paramètre comme la position relative et le bloc d'affichage pour m'assurer que je pourrais faire un peu
+   modifications nécessaires*/
+
+.element-menu {
+    position: relative;
+    display: block;
+    font-family: system-ui;
+    font-size: 16px;
+    padding: 2px;
+}
+
+
+/*Ce "avant" dans l'élément de menu, sert à créer ce trait vertical que je mets pour séparer les mots et faire un menu propre*/
+
+.element-menu::before {
+    content: "";
+    background-color: rgb(148, 151, 151);
+    width: 3px;
+    height: 100%;
+    margin-left: 2px;
+    position: absolute;
+}
+
+
+/* Ce sont les paramètres spécifiques pour le lien de menu, qui sont les mots eux-mêmes*/
+
+.lien-menu {
+    text-decoration: none;
+    color: rgb(12, 12, 12);
+    margin-left: 2.4rem;
+    margin-right: 2rem;
+    padding: 2rem;
+}
+
+.lien-menu a:hover {
+    text-shadow: 0 0 0 0 rgb(24, 23, 23);
+    text-decoration: underline;
+}
+
+
+/* Voici les détails de style du contenu général de la page*/
+
+.general-contenu {
+    position: absolute;
+    background-color: rgba(202, 204, 206, 0.226);
+    width: 100%;
+    height: 656px;
+    flex-grow: 1;
+    flex-shrink: 0;
+}
+
+
+/* C'est l'image des étudiants*/
+
+img {
+    margin-top: 66px;
+    margin-left: 667px;
+    width: 690px;
+    height: 588px;
+}
+
+
+/* Dans cette partie, nous avons stylisé le contenu de notre site Web */
+
+.contenu {
+    position: absolute;
+    top: 149px;
+    margin-left: 223px;
+    width: 400px;
+    height: 40px;
+    color: rgb(14, 13, 13);
+    text-align: justify;
+    font-family: sans-serif;
+    font-size: 17px;
+}
+
+
+/* Ici, nous stylisons le titre de la page */
+
+h1 {
+    color: rgb(172, 20, 0);
+    font-family: system-ui;
+}
+
+
+/* La classe "liens" coiffera le général des carrés en nuances de gris */
+
+.liens {
+    font-family: sans-serif;
+    display: -webkit-box;
+    color: white;
+    margin-top: 171px;
+}
+
+
+/* Dans cette partie, je vais styliser le texte à côté des liens d'images */
+
+.texte-liens {
+    position: absolute;
+    color: black;
+    width: 404px;
+    text-align: center;
+    margin-top: 295px;
+    margin-left: 797px;
+    font-size: 14px;
+}
+
+
+/* Cette partie va éditer la "boîte" où se trouve l'image avec le lien vers la page de l'institut grasset */
+
+.box-institut {
+    margin-top: 2px;
+    margin-left: -221px;
+    width: 413px;
+    height: 355px;
+    padding: 46px;
+    background-color: rgb(73, 72, 70);
+    text-align: center;
+}
+
+
+/* Voici le lien image du site de l'institut grasset*/
+
+.img_institut {
+    position: absolute;
+    width: 195px;
+    height: 182px;
+    margin-top: 145px;
+    margin-left: -54px;
+}
+
+
+/* Cette partie va éditer la "boîte" où se trouve l'image avec le lien vers notre page cours sur le site de l'institut grasset */
+
+.box-cours {
+    margin-top: 163px;
+    margin-left: -99px;
+    width: 411px;
+    height: 314px;
+    padding: 46px;
+    background-color: rgb(113, 116, 115);
+    text-align: center;
+}
+
+
+/* Ici il s'agit du lien image de notre cours sur le site de l'institut grasset*/
+
+.img_cours {
+    position: absolute;
+    width: 429px;
+    height: 247px;
+    margin-top: -55px;
+    margin-left: -341px;
+}
+
+
+/* Cette partie va éditer la "boîte" où se trouve l'image avec le lien vers la page des offres de stages sur le site de l'institut grasset */
+
+.box-offres {
+    margin-top: 385px;
+    margin-left: -853px;
+    width: 411px;
+    height: 314px;
+    padding: 46px;
+    background-color: rgb(48, 46, 46);
+    text-align: center;
+}
+
+
+/* Voici à propos du lien en image vers la page des offres de stages sur le site de l'institut grasset*/
+
+.img-offres {
+    position: absolute;
+    width: 273px;
+    height: 257px;
+    margin-top: -55px;
+    margin-left: -46px;
+}
+
+
+/*arrière-plan vidéo */
+
+.fonde_video {
+    position: absolute;
+    background-color: rgba(202, 204, 206, 0.226);
+    width: 1688px;
+    height: 905px;
+    margin-top: 1558px;
+}
+
+
+/* Dans cette partie, je vais styliser le texte au-dessus de la vidéo */
+
+.texte-video {
+    font-family: sans-serif;
+    font-size: 14px;
+    position: absolute;
+    color: rgb(14, 13, 13);
+    width: 660px;
+    text-align: center;
+    margin-top: 82px;
+    margin-left: 418px;
+}
+
+
+/* index vidéo */
+
+.video {
+    position: relative;
+    margin-top: 209px;
+    margin-left: 293px;
+}
+
+
+/* Il s'agit de la partie style de la partie adresse du site Web */
+
+.endereço {
+    font-family: sans-serif;
+    margin-top: -3153px;
+    margin-left: 54px;
+}
+
+
+/* Image de fond */
+
+.img-fonde {
+    width: -webkit-fill-available;
+    height: 673px;
+    margin-top: 2463px;
+    margin-left: 1px;
+}
+
+.texte-endereço {
+    margin-top: 2543px;
+    margin-left: 580px;
+}
+
+.info-endereço {
+    margin-top: 55px;
+    margin-left: 563px;
+}
+
+.google-maps {
+    margin-top: 58px;
+    margin-left: 218px;
+    width: 446px;
+    height: 322px;
+}
+
+
+/* Ce sont les détails du pied de page du site */
+
+.pied_de_page {
+    position: absolute;
+    display: block;
+    padding: 36px;
+    width: 100%;
+    bottom: -2662px;
+    background-color: rgb(41, 40, 40);
+    font-family: sans-serif;
+}
+
+
+/* Texte du pied de page du site Web */
+
+.text {
+    color: white;
+    margin-left: 577px;
+}

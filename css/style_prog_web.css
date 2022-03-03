@@ -1,0 +1,283 @@
+/* 
+Auteur : Bianca Fernandes Nascimento
+Date : 01.02.2022
+Raison : Mon professeur nous a demandé de créer un site Web avec ces caractéristiques, alors je l'ai créé.
+*/
+
+
+/* Cette partie stylisera toute la page, car elle est livrée avec une configuration par défaut des navigateurs qui gêne lors de la modification
+   les styles */
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+
+/* Ici, j'ai stylisé l'image du logo avec la taille et l'emplacement que je pensais être les meilleurs */
+
+.img img {
+    margin-left: 1rem;
+    margin-top: 1rem;
+    margin-bottom: -1.2rem;
+    width: 218px;
+    height: 82px;
+}
+
+
+/* Dans cette partie, j'ai défini la largeur de l'image sur 100 % juste pour m'assurer qu'elle a la qualité d'image d'origine */
+
+.logo {
+    width: 100%
+}
+
+
+/* Ici j'ai mis une taille maximum pour le menu à cause du "hover" qui va faire changer les tailles à cause du gras */
+
+.menu {
+    max-width: 1514px;
+}
+
+
+/* Ici, j'ai changé la position du "nav" en relatif pour me permettre de changer la marge, car je voulais déplacer un peu le menu vers le haut */
+
+nav {
+    position: relative;
+    margin-top: -20;
+}
+
+nav .list-menu li a:hover {
+    font-weight: bolder;
+}
+
+
+/* Dans cette partie, j'ai configuré le menu pour qu'il soit horizontal, avec la marge spécifique et la taille de police générale du menu */
+
+.list-menu {
+    margin-top: 35px;
+    display: -webkit-inline-box;
+    margin-left: 10px;
+    font-size: medium;
+    -webkit-box-shadow: 6px 6px 6px -2px rgb(97, 98, 99);
+    -moz-box-shadow: 6px 6px 6px -2px rgb(148, 151, 151);
+    box-shadow: 6px 6px 6px -2px rgb(183, 186, 189);
+    /* box-shadow sert à séparer les parties du site et à travailler dans un ombrage */
+    /* site: https://cssmatic.com/box-shadow */
+}
+
+
+/* Ici, je voulais ajuster la marge et la largeur dans les éléments de mon menu dans la liste des menus, afin qu'ils soient comme je le voulais */
+
+ul.list-menu {
+    margin-left: 0.1rem;
+    padding-right: 1rem;
+}
+
+
+/* J'ai mis dans l'élément de menu, un paramètre comme la position relative et le bloc d'affichage pour m'assurer que je pourrais faire un peu
+   modifications nécessaires */
+
+.element-menu {
+    position: relative;
+    display: block;
+    font-family: system-ui;
+    font-size: 16px;
+    padding: 2px;
+}
+
+
+/* Ce "avant" dans l'élément de menu, sert à créer ce trait vertical que je mets pour séparer les mots et faire un menu propre */
+
+.element-menu::before {
+    content: "";
+    background-color: rgb(148, 151, 151);
+    width: 3px;
+    height: 100%;
+    margin-left: 2px;
+    position: absolute;
+}
+
+
+/* Ce sont les paramètres spécifiques pour le lien de menu, qui sont les mots eux-mêmes */
+
+.lien-menu {
+    text-decoration: none;
+    color: rgb(12, 12, 12);
+    margin-left: 2.4rem;
+    margin-right: 2rem;
+    padding: 2rem;
+}
+
+
+/* Dans cette partie, je vais styliser le menu latéral général */
+
+.menu-lateral {
+    position: absolute;
+    width: 200px;
+    height: 524px;
+    padding: 50px;
+    margin-top: 66px;
+    margin-left: 327px;
+    background-color: rgb(29, 30, 31);
+}
+
+
+/* Détails de la liste latérale */
+
+.list-lateral {
+    margin-top: 140px;
+    margin-left: 23px;
+}
+
+
+/* Réglage de la couleur des numéros du menu latéral */
+
+.objet-lateral {
+    color: white;
+}
+
+
+/* Ajuster la couleur du lien et supprimer le tiret en dessous */
+
+.lien-lateral {
+    text-decoration: none;
+    color: white;
+}
+
+
+/* Ajustement de l'espacement du texte dans le cadre gris foncé */
+
+.cadre_text {
+    margin-bottom: -1px;
+}
+
+
+/* Voici les détails de style du contenu général de la page */
+
+.general-contenu {
+    position: absolute;
+    background-color: rgba(208, 210, 211, 0.226);
+    width: 100%;
+    height: 8387px;
+    font-family: sans-serif;
+}
+
+
+/* Dans cette partie, je style le texte initial qui est dans les carrés */
+
+.info_sujet {
+    margin-left: 275px;
+    top: 0;
+    position: absolute;
+    display: block;
+    padding: 39px;
+    padding-bottom: 54px;
+    width: 500px;
+    height: 532px;
+    background-color: rgb(56, 54, 54);
+    color: white;
+}
+
+
+/* Dans cette partie, nous avons stylisé le contenu de notre site Web */
+
+.contenu {
+    position: relative;
+    left: -53px;
+    width: 914px;
+    margin-top: 198px;
+    color: rgb(37, 36, 36);
+    text-align: justify;
+    font-family: sans-serif;
+}
+
+
+/* Changer la couleur des titres "h1" */
+
+h1 {
+    color: rgb(0, 172, 154);
+    font-family: system-ui;
+}
+
+
+/* liste des compétences */
+
+.list_competence {
+    margin-top: 12px;
+    margin-left: 23px;
+}
+
+
+/* Liste des évaluations */
+
+.list_evaluations {
+    list-style-type: square;
+    margin-left: 25px;
+}
+
+
+/* Organisation des tables */
+
+table {
+    text-align: justify;
+    border: double;
+    border-collapse: collapse;
+    background-color: rgb(173, 226, 221);
+}
+
+tr,
+td {
+    border: double;
+    padding: 20px;
+}
+
+.titre_tableau {
+    text-align: center;
+}
+
+
+/* Organiser la liste de la partie 5 - Politiques */
+
+.list_politiques {
+    list-style-type: square;
+    margin-left: 31px;
+}
+
+
+/* Organiser les liens Mozilla et w3 schools */
+
+.lien_mediagraphie {
+    display: inline-flex;
+}
+
+.lien_mozilla {
+    padding: 10px;
+    margin-left: 209px;
+}
+
+.lien_w3 {
+    padding: 10px;
+    margin-left: 55px;
+    margin-bottom: 30px;
+}
+
+
+/* Ce sont les détails du pied de page du site */
+
+.pied_de_page {
+    position: absolute;
+    display: block;
+    padding: 36px;
+    width: 100%;
+    bottom: -7807px;
+    background-color: rgb(41, 40, 40);
+    font-family: sans-serif;
+}
+
+
+/* Style du texte du pied de page */
+
+.text {
+    color: white;
+    margin-left: 577px;
+}

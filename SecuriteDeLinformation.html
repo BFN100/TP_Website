@@ -1,0 +1,854 @@
+<!-- 
+Auteur : Bianca Fernandes Nascimento
+Date : 01.02.2022
+Raison : Mon professeur nous a demandé de créer un site Web avec ces caractéristiques, alors je l'ai créé.
+-->
+
+<!DOCTYPE html>
+<!-- Le "lang" sert à dire quelle langue sera utilisée dans le développement de notre site, qui dans ce cas sera le français -->
+<html lang="fr">
+<!-- Dans la "head" nous mettrons les principaux paramètres de notre site -->
+
+<head>
+    <meta charset="utf-8">
+    <!-- Ici, j'identifie que j'utiliserai le fichier CSS appelé "style" pour styliser mon site Web -->
+    <link rel="stylesheet" href="css/style_cours.css">
+</head>
+
+<body>
+    <!-- Cette "section" est juste pour le logo que j'ai inséré dans le "head" -->
+    <section class="logo">
+        <span class="img">
+            <img src="img/logo.png" alt="Logo">
+        </span>
+    </section>
+    <!-- Ici commence le menu -->
+    <section class="menu">
+        <!-- Dans cette "nav" commence la liste qui formera le menu -->
+        <nav>
+            <ul class="list-menu">
+                <li class="element-menu">
+                    <a class="lien-menu" href="index.html">
+                        Page d'accueil
+                    </a>
+                </li>
+                <!-- Ici se termine le lien vers la page principale -->
+                <li class="element-menu">
+                    <a class="lien-menu" href="IntroductProgWeb.html">
+                        Introduction à la Programmation Web
+                    </a>
+                </li>
+                <!-- Ici se termine le lien vers la page Introduction à la programmation web -->
+                <li class="element-menu">
+                    <a class="lien-menu" href="ReseauxInformatiques.html">
+                        Reseaux Informatiques
+                    </a>
+                </li>
+                <!-- Ici se termine le lien vers la page de La Sécurité de L'information -->
+                <li class="element-menu">
+                    <a class="lien-menu" href="SecuriteDeLinformation.html">
+                        La Sécurité de L'information
+                    </a>
+                </li>
+                <!-- Ici se termine le lien vers la page de sécurité de l'information -->
+                <li class="element-menu">
+                    <a class="lien-menu" href="Presentation.html">
+                        Presentation
+                    </a>
+                </li>
+                <!-- Ici se termine le lien vers la page Présentation -->
+                </li>
+            </ul>
+            <!-- Ici se termine la liste des menus -->
+        </nav>
+    </section>
+    <!-- Ici se termine le menu -->
+    <!-- La "section" appelée "contenu", sera le contenu de la page-->
+    <section class="general-contenu_securite">
+        <!-- Cette prochaine "section" proviendra du menu latéral du contenu -->
+        <section class="menu-lateral">
+            <ol class="list-lateral">
+                <!-- Liste ordonnée latérale que l'enseignant a demandée, qui enverra l'utilisateur à la partie de la page qui a ce contenu indiqué dans le lien -->
+                <li class="objet-lateral">
+                    <a class="lien-lateral" href="#top_presentation_cours">
+                    Présentation générale du cours
+                </a>
+                </li><br>
+                <!-- Ici se termine le lien de soumission du contenu "Présentation générale du cours" -->
+                <li class="objet-lateral">
+                    <a class="lien-lateral" href="#top_competence">
+                    Compétence ministérielle
+                </a>
+                </li><br>
+                <!-- Ici se termine le lien de soumission du contenu "Compétence ministérielle" -->
+                <li class="objet-lateral">
+                    <a class="lien-lateral" href="#top_organisation">
+                    Organisation des activités
+                </a>
+                </li><br>
+                <!-- Ici se termine le lien de soumission du contenu "Organisation des activités" -->
+                <li class="objet-lateral">
+                    <a class="lien-lateral" href="#top_evaluations">
+                    Évaluations
+                </a>
+                </li><br>
+                <!-- Ici se termine le lien de soumission du contenu "Évaluations" -->
+                <li class="objet-lateral">
+                    <a class="lien-lateral" href="#top_politiques">
+                    Politiques
+                </a>
+                </li><br>
+                <!-- Ici se termine le lien de soumission du contenu "Politiques" -->
+            </ol>
+            <!-- Cette "section" appelée "info_sujet" présentera un tableau d'information de la matière selon l'exemple de l'enseignant-->
+            <section class="info_sujet">
+                <p class="cadre_text">
+                    <p class="titre"> Programme d'études: </p>
+                    Techniques de l'informatique, profil programmation nouveaux médias (420.B0)
+                </p><br>
+                <p class="cadre_text">
+                    <p class="titre"> Code du cours: </p>
+                    420-SY4-AG
+                </p><br>
+                <p class="cadre_text">
+                    <p class="titre"> Titre du cours: </p>
+                    Sécurité de l'information
+                </p><br>
+                <p class="cadre_text">
+                    <p class="titre"> Énoncé de la compétence: </p>
+                    Effectuer des opérations de prévention en matière de sécurité de l’information (00Q8)
+                </p><br>
+                <p class="cadre_text">
+                    <p class="titre"> Pondération: </p>
+                    2-2-2
+                </p><br>
+                <p class="cadre_text">
+                    <p class="titre"> Nombre d'unités: </p>
+                    2
+                </p><br>
+                <p class="cadre_text">
+                    <p class="titre"> Nombre d'heures de cours: 60</p>
+                </p><br>
+                <p class="cadre_text">
+                    <p class="titre"> Session: </p>
+                    Hiver 2022
+                </p><br>
+                <p class="cadre_text">
+                    <p class="titre"> professeur: </p>
+                    Frédéric Lazure
+                </p><br>
+                <p class="cadre_text">
+                    <p class="titre"> Disponibilités: </p>
+                    Sur rendez-vous ou par messagerie Omnivox (MIO)
+                </p><br>
+                <!-- Ici se termine la partie du tableau de présentation de la matière -->
+            </section>
+            <div class="contenu">
+                <!-- Ici j'ai mis un titre "h1" et un paragraphe "p", comme demandé par mon professeur -->
+                <!-- Ceci est la partie du contenu qui parle de Présentation Générale du cours-->
+                <br>
+                <br>
+                <br>
+                <div id="top_presentation_cours" class="top_presentation_cours">
+                    <h1>1 - Presentation Générale du cours</h1>
+                    <br>
+                    <b>But du cours et lien avec le programme de formation ou avec la séquence de cours</b>
+                    <br>
+                    <br>
+                    <p> Le cours Sécurité de l'information aborde la protection de l'information par le biais du contrôle de risques et son lien particulier avec l'informatique et la communication réseau. Le cours détaille les différents concepts de sécurité
+                        informatiques, les équipements, les logiciels, les algorithmes ainsi que les bonnes pratiques permettant de rendre accessible l'information à l'audience désirée exclusivement. La visée du cours couvre l'équipement physique, virtuel,
+                        infonuagique et les personnes auxquelles est confiée l'information.
+                    </p><br>
+
+                    <p> Le cours Sécurité de l'information est situé à la 2e session. Il couvre tous les éléments de la compétence 00Q8-Effectuer des opérations de prévention en matière de sécurité de l’information. Cette compétence n'est pas partagée par
+                        les autres cours du programme
+                    </p><br><br>
+
+                    <b>Objectif terminal du cours</b>
+                    <br>
+                    <br>
+                    <p>
+                        À la fin du cours, l’étudiant sera en mesure de comprendre, de mettre en place, de dépanner et d'effectuer des opérations de prévention sur des systèmes de contrôle de l'information.
+                    </p><br>
+
+                    <!-- Ceci est la partie du contenu qui parle de Compétence ministérielle -->
+                    <div id="top_competence">
+                        <h1>2 - Competénce ministérielle</h1><br>
+
+                        <b>Compétence :</b>
+                        <p> Effectuer des opérations de prévention en matière de sécurité de l’information (00Q8)
+                        </p><br>
+
+                        <b>Atteinte de la compétence : </b>
+                        <p> Complète</p><br>
+
+                        <b> Contexte de réalisation :</b><br>
+                        <ul class="list_competence">
+                            <li> À l’aide de mesures de sécurité reconnues.</li>
+                            <li> À l’aide de logiciels de sécurité informatique et de bibliothèques de cryptographie.</li>
+                        </ul><br>
+                        <!-- Tableau sur les compétences, où "tr" sont les lignes et "td" sont les colonnes -->
+                        <table>
+                            <tr>
+                                <td>
+                                    Éléments de compétence
+                                </td>
+                                <td>
+                                    Critères de performance
+                                </td>
+                            </tr>
+                            <tr>
+                                <td>
+                                    1. Analyser des risques en matière de sécurité de l’information.
+                                </td>
+                                <td>
+                                    <p>1.1 Inventaire précis de l’équipement informatique et des applications installés.</p><br>
+                                    <p>1.2 Inventaire adéquat des menaces potentielles et des vulnérabilités. </p><br>
+                                    <p>1.3 Détermination correcte des conséquences sur la sécurité</p><br>
+                                    <p>1.4 Choix approprié des mesures de sécurité à appliquer.</p><br>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td>
+                                    2. Appliquer des mesures de sécurité reconnues pour protéger le réseau.
+                                </td>
+                                <td>
+                                    <p>2.1 Utilisation appropriée des stratégies de sauvegarde.</p><br>
+                                    <p>2.2 Utilisation appropriée des stratégies d’attribution des droits d’accès.</p><br>
+                                    <p>2.3 Configuration et personnalisation correctes des logiciels antivirus et coupe-feu.</p><br>
+                                    <p>2.4 Utilisation appropriée des utilitaires de cryptographie.</p><br>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td>
+                                    3. Appliquer des mesures de sécurité reconnues pour protéger une application.
+                                </td>
+                                <td>
+                                    <p>3.1 Utilisation appropriée des stratégies de sécurisation des données entrées par l’utilisatrice et l’utilisateur.</p><br>
+                                    <p>3.2 Utilisation appropriée des techniques de contrôle des erreurs et des exceptions.</p><br>
+                                    <p>3.3 Utilisation appropriée de mécanismes d’authentification et d’autorisation sécuritaires.</p><br>
+                                </td>
+                            </tr>
+                        </table>
+                        <br><br>
+                    </div>
+                    <br>
+                    <!-- Ceci est la partie du contenu qui parle de Organisation des activités -->
+                    <div id="top_organisation">
+                        <i><b class="organisation">Organisation des activités d’enseignement et d’apprentissages</b></i> <br><br>
+                        <p> a) Approches pédagogiques privilégiées </p><br>
+
+                        <ul class="ul_organization">
+                            <li>Cours magistraux accompagnés de supports visuels</li>
+                            <li>Laboratoires ou ateliers</li>
+                            <li>Recherches individuelles ou en équipe</li>
+                            <li>Mises en situation</li>
+                            <li>Travail pratique dirigé</li>
+                            <li>Étude de cas</li>
+                            <li>Exercices</li>
+                        </ul><br><br>
+
+                        <p> b) Calendrier des activitées </p><br>
+                        <b> À noter : certaines périodes de cours pourraient être données en présentiel, vous serez avisés par votre professeur si c’est le cas.</b>
+                        <br>
+                        <br><br>
+                        <table class="organization">
+                            <!-- Ceci est un tableau qui montre l'organisation des activités du cours -->
+                            <tr class="titre_tableau">
+                                <td>
+                                    <b>Numéro de séance</b>
+                                </td>
+                                <td>
+                                    <b>Contenu</b>
+                                </td>
+                                <td>
+                                    <b>Informations (évaluations, activités, ateliers, lectures, etc.)</b>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td>
+                                    1
+                                </td>
+                                <td>
+                                    <ul>
+                                        <li>Historique de la sécurité de l'information</li>
+                                        <li>Historique de la cryptographie</li>
+                                        <li>Les différentes définitions de la sécurité</li>
+                                        <li>Objectifs de la sécurité de l'information : <br> Confidentialité, Intégrité, Disponibilité, Imputabilité, Non-répudiation et Authenticité</li>
+                                    </ul>
+                                </td>
+                                <td>
+                                    <ul>
+                                        <li>Installation et utilisation d'une solution cryptographique forte</li>
+                                    </ul>
+                                </td>
+                                <tr>
+                                    <td>
+                                        2
+                                    </td>
+                                    <td>
+                                        <ul>
+                                            <li>
+                                                Introduction à la gestion de risques (analyse, types de risques, danger, probabilité, impact, gravité, contrôles, risque résiduel, acceptabilité)
+                                            </li>
+                                            <li>
+                                                Le problème de la sécurité comme une pensée après coup (afterthought)
+                                            </li>
+                                            <li>
+                                                Design pour la sécurité
+                                            </li>
+                                            <li>
+                                                Vérification des entrées de l'utilisateur et validation des données
+                                            </li>
+                                        </ul>
+                                    </td>
+                                    <td>
+                                        Exercice de gestion de risque <br> Exercices de vérification des entrées de l'utilisateur et de validation des données
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td>
+                                        3
+                                    </td>
+                                    <td>
+                                        <ul>
+                                            <li>
+                                                Identification des risques de sécurité reliés au développement d'applications
+                                            </li>
+                                            <li>
+                                                Mécanismes de contrôle des erreurs et des exceptions
+                                            </li>
+                                            <li>
+                                                Implémentation d'algorithmes cryptographiques
+                                            </li>
+                                            <li>
+                                                Exemples de code générant des vulnérabilités
+                                            </li>
+                                        </ul>
+                                    </td>
+                                    <td>
+                                        Exercice de contrôle des erreurs et des exceptions
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td>
+                                        4
+                                    </td>
+                                    <td>
+                                        <ul>
+                                            <li>
+                                                Notion d'inventaire des équipements, des services informatiques, des rustines (patches) de sécurité et des failles potentielles.
+                                            </li>
+                                            <li>
+                                                Vulnérabilités zero-day, Virus, Malware, Worms, Cryptovirology, Ransomware, Trojan, Botnet, etc.
+                                            </li>
+                                        </ul>
+                                    </td>
+                                    <td>
+                                        Exercices de création et de maintenance d'inventaire.
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td>
+                                        5
+                                    </td>
+                                    <td>
+                                        Logiciels de sécurité informatique
+                                    </td>
+                                    <td>
+                                        Installation et configuration de logiciels de sécurité informatique <br> Inventaire et mise à jour des risques
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td>
+                                        6
+                                    </td>
+                                    <td>
+
+                                    </td>
+                                    <td>
+                                        <b>Examen intra 1</b><br>
+                                        <b>Pondération : 25%</b>
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td>
+                                        7
+                                    </td>
+                                    <td>
+                                        <ul>
+                                            <li>
+                                                Alice, Bob et les autres : les exemples classiques de la cryptographie
+                                            </li>
+                                            <li>
+                                                Algorithmes cryptographiques et applications, suite.
+                                            </li>
+                                            <li>
+                                                Type de chiffrements : faible, symétrique, asymétrique, hachage
+                                            </li>
+                                            <li>
+                                                Masque jetable et cryptographie quantique
+                                            </li>
+                                            <li>
+                                                Vulnérabilité et génération de nombres aléatoires.
+                                            </li>
+                                            <li>
+                                                Présentation du TP
+                                            </li>
+                                        </ul>
+                                    </td>
+                                    <td>
+                                        Choix du sujet de TP <br> Exercice d'évaluation de risque et d'implémentation de contrôle <br> Implémentation d'algorithmes cryptographiques
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td>
+                                        8
+                                    </td>
+                                    <td>
+                                        <ul>
+                                            <li>
+                                                Principales attaques réseaux.
+                                            </li>
+                                            <li>
+                                                Analyse d'une attaque informatique
+                                            </li>
+                                            <li>
+                                                Fonctionnement, installation et configuration des différents équipements et logiciels de sécurité réseau.
+                                            </li>
+                                        </ul>
+                                    </td>
+                                    <td>
+                                        Installation, configuration et opération de logiciels de sécurité réseau.
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td>
+                                        9
+                                    </td>
+                                    <td>
+                                        <ul>
+                                            <li>
+                                                Bonnes pratiques : mots de passe, listes d'accès, listes blanches, listes noires, authentification à facteurs multiples, mots de passe à usage unique, etc.
+                                            </li>
+                                            <li>
+                                                Air gap et ses limitations
+                                            </li>
+                                        </ul>
+                                    </td>
+                                    <td>
+                                        Exercices de création d'utilisateur et implémentation de mesures de sécurité associées
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td>
+                                        10
+                                    </td>
+                                    <td>
+                                        <ul>
+                                            <li>
+                                                Mise en place de stratégies de sauvegarde et test des sauvegardes.
+                                            </li>
+                                            <li>
+                                                Stratégie de sauvegarde 3-2-1
+                                            </li>
+                                        </ul>
+                                    </td>
+                                    <td>
+                                        Mise en place d'une stratégie de sauvegarde complète.
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td>
+                                        11
+                                    </td>
+                                    <td>
+                                        Introduction aux conteneurs (Docker)
+                                    </td>
+                                    <td>
+                                        Déploiement de divers conteneurs<br> Prise en main du TP
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td>
+                                        12
+                                    </td>
+                                    <td>
+                                        Prise en main du TP <br>
+                                    </td>
+                                    <td>
+                                        <b>Remise : Travail pratique 1</b><br>
+                                        <b>Pondération : 35%</b>
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td>
+                                        13
+                                    </td>
+                                    <td>
+                                        <ul>
+                                            <li>
+                                                Lois et régulations de la sécurité informatique.
+                                            </li>
+                                            <li>
+                                                Audit et conformité
+                                            </li>
+                                            <li>
+                                                Tests d'infiltration (Penetration testing)
+                                            </li>
+                                        </ul>
+                                    </td>
+                                    <td>
+                                        Tests d'infiltration<br> Exercice d'audit
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td>
+                                        14
+                                    </td>
+                                    <td>
+                                        Période de révision de la matière et de complément d'information
+                                    </td>
+                                    <td>
+                                        Révision de la matière du cours
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td>
+                                        15
+                                    </td>
+                                    <td>
+
+                                    </td>
+                                    <td>
+                                        <b>Évaluation finale</b><br>
+                                        <b>Pondération : 40%</b>
+                                    </td>
+                                </tr>
+                        </table><br>
+                        <b>Ce calendrier peut être sujet à modification durant la session.</b>
+                        <br><br>
+                    </div>
+                    <br>
+                    <br>
+                    <!-- Ceci est la partie du contenu qui parle des évaluations -->
+                    <div id="top_evaluations">
+                        <h1>3 - Evaluations</h1><br>
+                        <p> a) Évaluations formatives </p><br>
+
+                        <ul class="list_evaluations">
+                            <li> Laboratoires et exercices pratiques permettant de découvrir, de tester et d'évaluer de nouvelles technologies.</li>
+                            <li> Communication des résultats des recherches.</li>
+                        </ul><br>
+
+                        <p> b) Afin de vérifier l’atteinte de la compétence visée, voici les évaluations sommatives de ce cours : </p><br>
+                        <!-- Ce tableau montrera les devoirs et les examens de ce sujet pour cette session -->
+                        <table>
+                            <tr>
+                                <td>
+                                    Évaluation<br>
+                                </td>
+                                <td>
+                                    Date (numéro de séance)
+                                </td>
+                                <td>
+                                    Pondération
+                                </td>
+                                <td>
+                                    Éléments de compétences visés
+                                </td>
+                            </tr>
+                            <tr>
+                                <td class="list_non_ordene">
+                                    <b>Examen intra 1</b><br><br>
+                                    <b>Forme :</b><br> Individuel<br><br>
+                                    <b>Description :</b><br> Examen théorique et pratique sur la matière des 6 premiers cours <br><br>
+                                    <b>Critères d’évaluation :</b> <br> (00Q8)<br><br>
+                                    <ul>
+                                        <li>
+                                            1.1 à 1.4
+                                        </li>
+                                        <li>
+                                            2.1 à 2.4
+                                        </li>
+                                        <li>
+                                            3.1 à 3.3
+                                        </li>
+                                    </ul>
+                                </td>
+                                <td>
+                                    Séance 6
+                                </td>
+                                <td>
+                                    25%
+                                </td>
+                                <td>
+                                    (00Q8)<br><br>
+                                    <ol>
+                                        <li>
+                                            Analyser des risques en matière de sécurité de l’information.
+
+                                        </li>
+                                        <li>
+                                            Appliquer des mesures de sécurité reconnues pour protéger le réseau.
+                                        </li>
+                                        <li>
+                                            Appliquer des mesures de sécurité reconnues pour protéger une application.
+                                        </li>
+                                    </ol>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td>
+                                    <b>Titre :</b> Travail pratique <br>
+                                    <b>Forme :</b><br> : En relation avec le TP du cours de <i>réseaux informatiques</i>, faire une analyse de risque de l'application et mettre en place des contrôles suffisants pour rendre le risque acceptable. La solution
+                                    devra inclure un minimum de 5 mesures originales.
+                                    <br>
+                                    <b>Critères d’évaluation :</b>
+                                    <ul>
+                                        <li>
+                                            Respect des consignes
+                                        </li>
+                                        <li>
+                                            Pertinence des logiciels
+                                        </li>
+                                        <li>
+                                            Justesse de l’interprétation de l’information technique
+                                        </li>
+                                        <li>
+                                            Précision de l’analyse de risque
+                                        </li>
+                                        <li>
+                                            Exactitude des spécifications
+                                        </li>
+                                        <li>
+                                            Qualité de la sélection des contrôles
+                                        </li>
+                                        <li>
+                                            Acceptabilité du risque résiduel
+                                        </li>
+                                    </ul>
+                                </td>
+                                <td>
+                                    Séance 12
+                                </td>
+                                <td>
+                                    35%
+                                </td>
+                                <td>
+                                    (00Q8)<br><br>
+                                    <ol>
+                                        <li>
+                                            Analyser des risques en matière de sécurité de l’information.
+                                        </li>
+                                        <li>
+                                            Appliquer des mesures de sécurité reconnues pour protéger le réseau.
+                                        </li>
+                                        <li>
+                                            Appliquer des mesures de sécurité reconnues pour protéger une application.
+                                        </li>
+                                    </ol>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td>
+                                    <b>Évaluation finale</b><br><br>
+                                    <b>Forme :</b><br> Individuel<br><br>
+                                    <b>Description :</b><br> Examen théorique et pratique sur la matière de l'ensemble du cours<br><br>
+                                    <b>Critères d’évaluation :</b> <br> (00Q5)<br><br>
+                                    <ul>
+                                        <li>
+                                            1.1 à 1.4
+                                        </li>
+                                        <li>
+                                            2.1 à 2.4
+                                        </li>
+                                        <li>
+                                            3.1 à 3.3
+                                        </li>
+                                    </ul>
+                                </td>
+                                <td>
+                                    Séance 15<br>
+                                </td>
+                                <td>
+                                    40%
+                                </td>
+                                <td>
+                                    (00Q8)<br><br>
+                                    <ol>
+                                        <li>
+                                            Analyser des risques en matière de sécurité de l’information.
+                                        </li>
+                                        <li>
+                                            Appliquer des mesures de sécurité reconnues pour protéger le réseau.
+                                        </li>
+                                        <li>
+                                            Appliquer des mesures de sécurité reconnues pour protéger une application.
+                                        </li>
+                                    </ol>
+                                </td>
+                            </tr>
+                        </table>
+                        <br>
+                        <br>
+                    </div>
+                    <!-- Ceci est la partie du contenu qui parle de Politiques -->
+                    <div id="top_politiques">
+                        <br>
+                        <h1>4 - Politiques</h1><br>
+                        <br>
+                        <b>a) Politiques issues de la PIEA</b>
+                        <br>
+                        <br>
+                        <ul class="list_politiques">
+                            <li>
+                                <b> Absences aux examens</b><br> L'étudiant doit:
+                            </li>
+                            <br>
+                            <p>
+                                <b>1.7.1.3</b>
+                                <i>Informer son professeur en cas d’absence à un examen en cours de session et présenter 
+                            une preuve justificative. L’étudiant doit également convenir des modalités de reprise avec son 
+                            professeur ou se conformer aux modalités prévues au plan de cours. L’autorisation de reprise ne 
+                            sera accordée que pour un cas de force majeure, hors du contrôle de l’étudiant, confirmé par 
+                            une preuve (maladie grave, citation à comparaître devant un tribunal, décès d’un proche, 
+                            accident, etc.).</i><br>
+                            </p>
+                            <p>
+                                <b>1.7.1.4</b>
+                                <i>Informer la Direction des études ou le directeur adjoint de l'Institut en cas d’absence à 
+                            un examen final et présenter une preuve justificative. La Direction des études ou le directeur 
+                            adjoint de l’Institut fixe le moment de la reprise de l’examen dans les meilleurs délais. 
+                            L’autorisation de reprise ne sera accordée que pour un cas de force majeure hors de votre 
+                            contrôle confirmé par une preuve (maladie grave, citation à comparaître devant un tribunal, 
+                            décès d’un proche, etc.).</i>
+                            </p>
+                            <br><br>
+                            <li>
+                                <b>Retards dans la remise des travaux</b>
+                            </li>
+                            <br>
+                            <p>
+                                <b>2.3.3.1</b>
+                                <i>Pour les travaux dont le délai de production est d'une semaine (7 jours) ou moins, le 
+                            professeur peut refuser le travail et inscrire la note zéro.</i><br>
+                            </p>
+                            <p>
+                                <b>2.3.3.2</b>
+                                <i>Pour les travaux dont le délai de production est de plus d'une semaine (8 jours et plus), le 
+                            professeur peut enlever jusqu’à 10 % des points par jour de retard, incluant les jours de fin de 
+                            semaine.
+                            </i><br>
+                            </p>
+                            <br><br>
+                            <li>
+                                <b>Évaluation de la langue</b>
+                            </li>
+                            <br>
+                            <p>
+                                L’évaluation tient compte du français écrit, et ce jusqu’à 10% de la note finale.<br>
+                                <b>1.6.6.1</b>
+                                <i>L’étudiant doit présenter ses travaux et ses examens dans un français de qualité.</i><br>
+                            </p>
+                            <br><br>
+                            <li>
+                                <b>Le plagiat</b>
+                            </li>
+                            <br>
+                            <p>
+                                <b>3.3</b> Le plagiat (Dionne, 2013, p.199)<br>
+                                <i>Le plagiat est l’acte de faire passer pour siens des textes, des contenus, des réponses ou des idées 
+                            d’autrui, sans citer la source.</i><br>
+                            </p>
+                            <br><br>
+                            <p>
+                                <b>3.4</b> La fraude, la tricherie et la tentative de tricherie<br>
+                                <i>La fraude est un acte de tromperie qui vise l'obtention d'un avantage personnel, parfois au 
+                            détriment des autres.</i><br>
+                            </p>
+                            <br><br>
+                            <p>
+                                <b>3.5</b> Conséquences<br>
+                                <i>Tout plagiat, toute fraude, toute tentative de plagiat ou de fraude, toute coopération à un plagiat 
+                            ou à une fraude et toute présence de matériel non autorisé est passible de la note zéro pour 
+                            l’activité concernée et peut entraîner une réévaluation des résultats antérieurs. </i><br>
+                                <i>Les appareils électroniques, comme les téléphones cellulaires et les montres intelligentes, peuvent 
+                            contenir une foule d’informations (notes de cours, solutionnaires, formules, etc.) en plus de 
+                            permettre d’entrer en communication avec autrui. À moins d’une autorisation explicite du 
+                            professeur, leur utilisation est formellement interdite durant toute évaluation, sous peine de 
+                            sanction pour fraude. De façon préventive, durant les évaluations, les appareils électroniques 
+                            doivent être laissés à l’extérieur du local d’examens. Si un étudiant conserve sur lui un appareil 
+                            électronique lors d’une évaluation, il sera automatiquement convoqué par la direction des études 
+                            qui pourrait appliquer des sanctions. En cas de récidive, la direction des études pourrait 
+                            recommander des sanctions allant jusqu’au renvoi du collège.</i><br>
+                            </p>
+                        </ul>
+                        <br>
+                        <br>
+                        <br>
+
+                        <b>b)  Politiques de l’Institut</b>
+                        <br>
+                        <br>
+
+                        <ul class="list_politiques">
+                            <li>
+                                <b>  Politique de contenu</b>
+                            </li>
+                            <br> Sont à proscrire tous les contenus à caractère irrespectueux, diffamatoire ou explicite, qu'ils soient sexuels, racistes, religieux ou autres. Tout contenu devra être validé par le professeur avant d'être diffusé.
+                            <br>
+                            <br>
+                            <br>
+                            <li>
+                                <b>Politique d'enregistrement des cours</b>
+                            </li>
+                            <br> Il est strictement interdit d’enregistrer les cours sans l’autorisation écrite du professeur, que ce soit un enregistrement audio et/ou vidéo fait à partir d’un téléphone intelligent ou à l'aide de n’importe quel autre
+                            support.
+                            <br>
+                            <br>
+                            <br>
+                            <li>
+                                <b>Politique de comportement en classe</b>
+                            </li>
+                            <br>
+                            <p>
+                                L’étudiant(e) dont le comportement nuit au bon déroulement du cours pourra se voir refuser l’accès au cours et devra rencontrer le coordonnateur à cet effet. Seront considérés comme nuisibles au bon déroulement du cours :
+                                <br> -Manque de respect à l’égard de l’enseignant(e) ou des étudiants <br> -Non-respect des consignes de l’enseignant(e)<br> -Ne pas effectuer en classe le travail exigé par l’enseignant(e)<br> -Travailler en classe sur
+                                le contenu d’un autre cours<br> -Tout autre comportement jugé nuisible au bon déroulement du cours par l’enseignant(e)
+                            </p>
+                        </ul>
+                        <br>
+                        <br>
+                        <br>
+                        <!-- Ici, vous serez approché au sujet du matériel nécessaire pour le cours -->
+                        <h1>5 - Ouvrage(s) ou matériel requis pour ce cours</h1>
+                        <br>
+                        <b>Médiagraphie</b>
+                        <br>
+                        <br>
+                        <i>L’étudiant qui reçoit des fichiers numériques dans le cadre de son cours peut en imprimer une copie et 
+                    conserver ces fichiers numériques jusqu’à 30 jours après l’évaluation finale, mais il ne peut pas les 
+                    transmettre à quelqu'un d'autre, que ce soit sous forme numérique ou imprimée, ni en faire une 
+                    exploitation commerciale sous quelque support que ce soit.</i>
+                        <br>
+                        <br> Livres suggérés :
+                        <br>
+                        <br> GHERNAOUTI, S.<i>Cybersécurité: Analyser les risques, mettre en oeuvre les solutions</i>, Dunod, 2019, 391 pages <br>
+                        <br> SCHNEIER, Bruce, <i>Applied Cryptography: Protocols, Algorithms and Source Code in C</i>, (20th Anniversary Edition), John Wiley & Sons, 2015, 784 pages<br>
+                        <br> AGGARWAL, M. <i>Network Security with PfSense </i>, Packt Publishing, 2018, 152 pages
+                        <!-- Ici se termine la "div" du contenu spécifique -->
+                    </div>
+                    <!-- Ici se termine la "div" du contenu-->
+        </section>
+        <!-- Ici se termine la "section" du contenu-->
+    </section>
+</body>
+
+<!-- En "footer" on fait le pied de page de notre site -->
+<footer class="pied_de_page_securite">
+    <p class="text"> © 2022 - Bianca Fernandes Nascimento </p>
+</footer>
+<!-- Ici se termine le pied de page du site-->
+
+</html>

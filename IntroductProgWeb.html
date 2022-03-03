@@ -1,0 +1,777 @@
+<!-- 
+Auteur : Bianca Fernandes Nascimento
+Date : 01.02.2022
+Raison : Mon professeur nous a demandé de créer un site Web avec ces caractéristiques, alors je l'ai créé.
+-->
+
+<!DOCTYPE html>
+<!-- Le "lang" sert à dire quelle langue sera utilisée dans le développement de notre site, qui dans ce cas sera le français -->
+<html lang="fr">
+<!-- Dans la "head" nous mettrons les principaux paramètres de notre site -->
+
+<head>
+    <meta charset="utf-8">
+    <!-- Ici, j'identifie que j'utiliserai le fichier CSS appelé "style" pour styliser mon site Web -->
+    <link rel="stylesheet" href="css/style_prog_web.css">
+</head>
+
+<body>
+    <!-- Cette "section" est juste pour le logo que j'ai inséré dans le "head" -->
+    <section class="logo">
+        <span class="img">
+            <img src="img/logo.png" alt="Logo">
+        </span>
+    </section>
+    <!-- Ici commence le menu -->
+    <section class="menu">
+        <!-- Dans cette "nav" commence la liste qui formera le menu -->
+        <nav>
+            <ul class="list-menu">
+                <li class="element-menu">
+                    <a class="lien-menu" href="index.html">
+                        Page d'accueil
+                    </a>
+                </li>
+                <!-- Ici se termine le lien vers la page principale -->
+                <li class="element-menu">
+                    <a class="lien-menu" href="IntroductProgWeb.html">
+                        Introduction à la Programmation Web
+                    </a>
+                </li>
+                <!-- Ici se termine le lien vers la page Introduction à la programmation web -->
+                <li class="element-menu">
+                    <a class="lien-menu" href="ReseauxInformatiques.html">
+                        Reseaux Informatiques
+                    </a>
+                </li>
+                <!-- Ici se termine le lien vers la page de La Sécurité de L'information -->
+                <li class="element-menu">
+                    <a class="lien-menu" href="SecuriteDeLinformation.html">
+                        La Sécurité de L'information
+                    </a>
+                </li>
+                <!-- Ici se termine le lien vers la page de sécurité de l'information -->
+                <li class="element-menu">
+                    <a class="lien-menu" href="Presentation.html">
+                        Presentation
+                    </a>
+                </li>
+                <!-- Ici se termine le lien vers la page Présentation -->
+                </li>
+            </ul>
+            <!-- Ici se termine la liste des menus -->
+        </nav>
+    </section>
+    <!-- Ici se termine le menu -->
+    <!-- La "section" appelée "contenu", sera le contenu de la page-->
+    <section class="general-contenu">
+        <!-- Cette prochaine "section" proviendra du menu latéral du contenu -->
+        <section class="menu-lateral">
+            <ol class="list-lateral">
+                <!-- Liste ordonnée latérale que l'enseignant a demandée, qui enverra l'utilisateur à la partie de la page qui a ce contenu indiqué dans le lien -->
+                <li class="objet-lateral">
+                    <a class="lien-lateral" href="#top_presentation_cours">
+                    Présentation générale du cours
+                </a>
+                </li><br>
+                <!-- Ici se termine le lien de soumission du contenu "Présentation générale du cours" -->
+                <li class="objet-lateral">
+                    <a class="lien-lateral" href="#top_competence">
+                    Compétence ministérielle
+                </a>
+                </li><br>
+                <!-- Ici se termine le lien de soumission du contenu "Compétence ministérielle" -->
+                <li class="objet-lateral">
+                    <a class="lien-lateral" href="#top_organisation">
+                    Organisation des activités
+                </a>
+                </li><br>
+                <!-- Ici se termine le lien de soumission du contenu "Organisation des activités" -->
+                <li class="objet-lateral">
+                    <a class="lien-lateral" href="#top_evaluations">
+                    Évaluations
+                </a>
+                </li><br>
+                <!-- Ici se termine le lien de soumission du contenu "Évaluations" -->
+                <li class="objet-lateral">
+                    <a class="lien-lateral" href="#top_politiques">
+                    Politiques
+                </a>
+                </li><br>
+                <!-- Ici se termine le lien de soumission du contenu "Politiques" -->
+            </ol>
+            <!-- Cette "section" appelée "info_sujet" présentera un tableau d'information de la matière selon l'exemple de l'enseignant-->
+            <section class="info_sujet">
+                <p class="cadre_text">
+                    <p class="titre"> Programme d'études: </p>
+                    Techniques de l'informatique, profil programmation nouveaux médias (420.B0)
+                </p><br>
+                <p class="cadre_text">
+                    <p class="titre"> Code du cours: </p>
+                    420-YW5-AG
+                </p><br>
+                <p class="cadre_text">
+                    <p class="titre"> Titre du cours: </p>
+                    Introduction a la Programmation web
+                </p><br>
+                <p class="cadre_text">
+                    <p class="titre"> Énoncé de la compétence: </p>
+                    Effectuer le développement d'applications Web non transactionnelles (OOST)
+                </p><br>
+                <p class="cadre_text">
+                    <p class="titre"> Pondération: </p>
+                    2-3-3
+                </p><br>
+                <p class="cadre_text">
+                    <p class="titre"> Nombre d'unités: </p>
+                    2,33
+                </p><br>
+                <p class="cadre_text">
+                    <p class="titre"> Nombre d'heures de cours: 75</p>
+                </p><br>
+                <p class="cadre_text">
+                    <p class="titre"> Session: </p>
+                    Hiver 2022
+                </p><br>
+                <p class="cadre_text">
+                    <p class="titre"> professeur: </p>
+                    Jules Ferry Bindia
+                </p><br>
+                <p class="cadre_text">
+                    <p class="titre"> Disponibilités: </p>
+                    Sur rendez-vous ou par messagerie Omnivox (MIO)
+                </p><br>
+                <!-- Ici se termine la partie du tableau de présentation de la matière -->
+            </section>
+            <div class="contenu">
+                <!-- Ici j'ai mis un titre "h1" et un paragraphe "p", comme demandé par mon professeur -->
+                <!-- Ceci est la partie du contenu qui parle de Présentation Générale du cours-->
+                <br>
+                <br>
+                <br>
+                <div id="top_presentation_cours" class="top_presentation_cours">
+                    <h1>1 - Presentation Générale du cours</h1>
+                    <br>
+                    <b>But du cours et lien avec le programme de formation ou avec la séquence de cours</b>
+                    <br>
+                    <br>
+                    <p> Le but de ce cours est de fournir aux étudiants les concepts de base de l'Internet et du World Wide Web, la création de pages Web avec HTML, l'utilisation du CSS pour personnaliser les pages web, l'utilisation de JavaScript côté client
+                        pour rendre des pages web statiques et dynamiques et pour faire de la programmation DOM et BOM. Des notions de Bootstrap et JQuery sont également abordées pour créer des interfaces interactives, conviviales et pour réduire le temps
+                        de codage
+                    </p><br>
+
+                    <p> Ce cours est offert à la deuxième session du programme <i>Techniques de l’informatique profil programmation nouveaux médias</i> (420.B0). Sa durée est de 75 heures, réparties en 30 heures de théorie et 45 heures d’exercices pratiques
+                        (laboratoire informatique) auxquelles s’ajoutent environ 30 heures de travail personnel (devoirs).
+                    </p><br>
+
+                    <p> <i>Introduction à la programmation WEB</i> partage le développement de la compétence 00ST (Effectuer le développement d’applications Web non transactionnelles) avec le cours <i>Gestion de projets</i> (420-GP4-AG) situé à la deuxième
+                        session du programme, avec le cours <i>Programmation avancée base de données</i>(420-PA6- AG), situé à la troisième session du programme et avec le cours <i>Développement avancé d’application mobile</i> (420-D10-AG), situé à la
+                        quatrième session du programme
+                    </p><br>
+
+                    <b>Objectif terminal du cours</b>
+                    <br>
+                    <br>
+                    <p>À la fin du cours, l’étudiantsera en mesure de concevoir et d'implémenter un site Web côté client en utilisant HTML5, CSS3 et JavaScript dans l’environnement Microsoft Visual Studio (dernière version).</p><br>
+
+                    <b>Préalables relatifs</b>
+                    <br>
+                    <br>
+                    <p><i>Introduction à la programmation WEB</i> est un cours préalable relatif à <i>Programmation Web avancée</i> (420- WA5-AG). De même, les notions apprises dans ce cours sont réinvesties dans les cours <i>Programmation Web avancée</i>                        (420-WA5-AG) et <i>Programmation native mobile</i> (420-PN6-AG).</p><br><br>
+                </div>
+                <br>
+                <!-- Ceci est la partie du contenu qui parle de Compétence ministérielle -->
+                <div id="top_competence">
+                    <h1>2 - Competénce ministérielle</h1><br>
+
+                    <b>Compétence :</b>
+                    <p> Effectuer le développement d’applications Web non transactionnelles (00ST)</p><br>
+
+                    <b>Atteinte de la compétence : </b>
+                    <p> Partielle</p><br>
+
+                    <b> Contexte de réalisation :</b><br>
+                    <ul class="list_competence">
+                        <li> Pour des applications Web à la diffusion d’information, à la promotion, etc. </li>
+                        <li> Pour de nouvelles applications et des applications à modifier. </li>
+                        <li> À partir des documents de conception. </li>
+                        <li> À l’aide d’images. </li>
+                        <li> À l’aide de procédures de suivi des problèmes et de gestion des versions. </li>
+                    </ul><br>
+                    <!-- Tableau sur les compétences, où "tr" sont les lignes et "td" sont les colonnes -->
+                    <table>
+                        <tr>
+                            <td>
+                                Éléments de compétence
+                            </td>
+                            <td>
+                                Critères de performance
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>
+                                2. Préparer l’environnement de développement informatique.
+                            </td>
+                            <td>
+                                <p>2.1 Installation correcte de la plateforme de développement Web. (partielle) </p><br>
+                                <p>2.2 Installation correcte des logiciels et des bibliothèques. </p><br>
+                                <p>2.3 Importation correcte du code source.</p><br>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>
+                                4. Programmer l’interface Web.
+                            </td>
+                            <td>
+                                <p>4.1 Utilisation appropriée du langage de balisage.</p><br>
+                                <p>4.2 Création et utilisation appropriées des feuilles de styles.</p><br>
+                                <p>4.3 Intégration correcte des images.</p><br>
+                                <p>4.3 Intégration correcte des images.</p><br>
+                                <p>4.4 Adaptation de l’interface en fonction du format d’affichage et de la résolution.</p><br>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>
+                                6. Programmer la logique applicative du côté client.
+                            </td>
+                            <td>
+                                <p>6.1 Manipulation adéquate des objets du modèle DOM. </p><br>
+                                <p>6.2 Programmation correcte des interactions entre l’interface Web et l’utilisatrice ou l’utilisateur. </p><br>
+                                <p>6.3 Programmation et intégration adéquates d’animations ou de widgets.</p><br>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>
+                                7. Contrôler la qualité de l’application.
+                            </td>
+                            <td>
+                                <p>7.1 Application rigoureuse des plans de tests.</p><br>
+                                <p>7.2 Revues de code et de sécurité rigoureuses.</p><br>
+                                <p>7.3 Pertinence des correctifs.</p><br>
+                                <p>7.5 Respect des documents de conception.</p><br>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>
+                                9. Rédiger la documentation.
+                            </td>
+                            <td>
+                                <p>9.1 Détermination correcte de l’information à rédiger. </p><br>
+                                <p>9.2 Notation claire du travail effectué.</p><br>
+                            </td>
+                        </tr>
+                    </table>
+                    <br><br>
+                </div>
+                <br>
+                <!-- Ceci est la partie du contenu qui parle de Organisation des activités -->
+                <div id="top_organisation">
+                    <h1>3 - Organisation des activités</h1><br>
+                    <p> a) Approches pédagogiques privilégiées </p><br>
+
+                    <p> - Exposés théoriques </p>
+                    <p> - Études de cas </p>
+                    <p> - Exercices pratiques en classe </p><br><br>
+
+                    <p> b) Calendrier des activitées </p><br>
+                    <b> (À noter: toutes les périodes de cours seront données entièrement en ligne.) </b>
+                    <br>
+                    <br>
+                    <table class="organization">
+                        <!-- Ceci est un tableau qui montre l'organisation des activités du cours -->
+                        <tr class="titre_tableau">
+                            <td>
+                                <b>Numéro de séance</b>
+                            </td>
+                            <td>
+                                <b>Contenu</b>
+                            </td>
+                            <td>
+                                <b>Informations (évaluations, activités, ateliers, lectures, etc.)</b>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>
+                                1
+                            </td>
+                            <td>
+                                - Histoire de l'Internet <br> - Syntaxe et structure de base d'un projet HTML
+                            </td>
+                            <td>
+                                - Prise en main de l’environnement de développement Visual studio
+                            </td>
+                            <tr>
+                                <td>
+                                    2
+                                </td>
+                                <td>
+                                    - Principales balises HTML
+                                </td>
+                                <td>
+                                    - Exercices sur le HTML de base <br> - Évaluation formative
+                                </td>
+                            </tr>
+                            <tr>
+                                <td>
+                                    3
+                                </td>
+                                <td>
+                                    - Balises HTML avancées <br> - Tableaux, images, vidéos, audio <br> - Lecteurs visuels et non visuels <br>
+                                </td>
+                                <td>
+                                    - Exercices avec les tableaux, images, audios, vidéos <br> - Évaluation formative
+                                </td>
+                            </tr>
+                            <tr>
+                                <td>
+                                    4
+                                </td>
+                                <td>
+                                    - Nouveaux éléments du HTML5 <br> - HTML sémantique <br> - Champs de formulaire
+                                </td>
+                                <td>
+                                    - Exercices sur le HTML5 <br> - Évaluation formative
+                                </td>
+                            </tr>
+                            <tr>
+                                <td>
+                                    5
+                                </td>
+                                <td>
+                                    - Introduction au CSS <br> - Rôles du UX, UI et développeurs <br> « front-end »
+                                </td>
+                                <td>
+                                    <b>- Remise du travail pratique 1 Pondération : 20%</b> <br> - Prise en main des feuilles de styles
+                                </td>
+                            </tr>
+                            <tr>
+                                <td>
+                                    6
+                                </td>
+                                <td>
+                                    - Sélecteurs CSS de mise en forme <br> - Police, alignement, couleurs, background, décoration de texte
+                                </td>
+                                <td>
+                                    - Exercices sur les polices de caractères, bordures, arrière-plan, listes <br> - Évaluation formative
+                                </td>
+                            </tr>
+                            <tr>
+                                <td>
+                                    7
+                                </td>
+                                <td>
+                                    - Positionnement de blocs CSS <br> - Marges, « float », positions <br> - CSS reset
+                                </td>
+                                <td>
+                                    - Exercices sur les « floats », « clear », marges, position <br> - Évaluation formative
+                                </td>
+                            </tr>
+                            <tr>
+                                <td>
+                                    8
+                                </td>
+                                <td>
+                                    - Nouveaux éléments de CSS3 <br> - Opacité, transformation, animation, effet sur le texte
+                                </td>
+                                <td>
+                                    - Exercices sur le CSS3 <br> - Évaluation formative
+                                </td>
+                            </tr>
+                            <tr>
+                                <td>
+                                    9
+                                </td>
+                                <td>
+                                    - « Media queries » <br> - Site adaptatif <br> - Formulaire
+                                </td>
+                                <td>
+                                    - Exercices sur les sites "responsives" <br> - Évaluation formative
+                                </td>
+                            </tr>
+                            <tr>
+                                <td>
+                                    10
+                                </td>
+                                <td>
+                                    - CSS pour mobile <br> - Sélecteurs avancés
+                                </td>
+                                <td>
+                                    - Exercice sur le CSS mobile <br>- Évaluation formative
+                                </td>
+                            </tr>
+                            <tr>
+                                <td>
+                                    11
+                                </td>
+                                <td>
+                                    - Framework CSS <br> - « Bootstrap »
+                                </td>
+                                <td>
+                                    - Exercices sur Bootstrap <br> - Évaluation formative
+
+                                </td>
+                            </tr>
+                            <tr>
+                                <td>
+                                    12
+                                </td>
+                                <td>
+                                    - Référencement web <br> - Méga menu
+                                </td>
+                                <td>
+                                    - Prise en main du Travail pratique 2
+                                </td>
+                            </tr>
+                            <tr>
+                                <td>
+                                    13
+                                </td>
+                                <td>
+                                    - Introduction à Javascript <br> - Opérateurs, variables, valeurs spéciales <br> - Structure de contrôle
+                                </td>
+                                <td>
+                                    <b>- Remise du travail pratique 2
+                            Pondération : 35% </b><br> - Prise en main du langage Javascript
+                                </td>
+                            </tr>
+                            <tr>
+                                <td>
+                                    14
+                                </td>
+                                <td>
+                                    - Tableaux et objets <br> - Fonctions
+                                </td>
+                                <td>
+                                    - Exercices sur les « arrays », « object » et « function » <br> - Évaluation formative
+                                </td>
+                            </tr>
+                            <tr>
+                                <td>
+                                    15
+                                </td>
+                                <td>
+                                    - Événements Javascript <br> - Fetch - <br> Conversion de type explicite et implicite
+                                </td>
+                                <td>
+                                    - Exercices de programmation de formulaire <br> - Évaluation formative
+                                </td>
+                            </tr>
+                            <tr>
+                                <td>
+                                    16
+                                </td>
+                                <td>
+                                    - DOM (Document Object Model) <br> - Accès aux objets <br> - Navigation dans le DOM <br> - Création et manipulation dynamique
+                                </td>
+                                <td>
+                                    - Exercices sur les sélecteurs du DOM <br> - Évaluation formative
+                                </td>
+                            </tr>
+                            <tr>
+                                <td>
+                                    17
+                                </td>
+                                <td>
+                                    - Librairies <br> - jQuery
+                                </td>
+                                <td>
+                                    - Exercices avec jQuery <br> - Évaluation formative
+                                </td>
+                            </tr>
+                            <tr>
+                                <td>
+                                    18
+                                </td>
+                                <td>
+                                    - Compatibilité des fureteurs <br> - Entrée/sortie
+                                </td>
+                                <td>
+                                    - Prise en main de l’évaluation finale
+                                </td>
+                            </tr>
+                            <tr>
+                                <td>
+                                    19
+                                </td>
+                                <td>
+                                    - Notions avancées de Javascript <br> - Fonction lambda <br> - Notion de clôture <br> - Fonction imbriquée
+                                </td>
+                                <td>
+                                    <b>- Remise de l’évaluation finale
+                            Pondération : 45%</b>
+                                </td>
+                            </tr>
+                    </table><br>
+                    <b>Ce calendrier peut être sujet à modification durant la session.</b>
+                    <br><br>
+                </div>
+                <br>
+                <br>
+                <!-- Ceci est la partie du contenu qui parle des évaluations -->
+                <div id="top_evaluations">
+                    <h1>4 - Evaluations</h1><br>
+                    <p> a) Évaluations formatives </p><br>
+
+                    <ul class="list_evaluations">
+                        <li> Laboratoires et exercices pratiques permettant de découvrir, de tester et d'évaluer de nouvelles technologies et l’évolution de chaque étudiant </li>
+                        <li> Communication des résultats et discussion avec les étudiants. </li>
+                    </ul><br>
+
+                    <p> b) Afin de vérifier l’atteinte de la compétence visée, voici les évaluations sommatives de ce cours : </p><br>
+                    <!-- Ce tableau montrera les devoirs et les examens de ce sujet pour cette session -->
+                    <table>
+                        <tr>
+                            <td>
+                                Évaluation<br>
+                            </td>
+                            <td>
+                                Date (numéro de séance)
+                            </td>
+                            <td>
+                                Pondération
+                            </td>
+                            <td>
+                                Éléments de compétences visés
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>
+                                <b>Travail pratique 1</b><br>
+                                <u>Forme :</u> Page HTML simple <br>
+                                <u>Critères d’évaluation :</u> <br> 2.1 Installation correcte de la plateforme de développement Web. <br> 4.1 Utilisation appropriée du langage de balisage. <br> 7.5 Respect des documents de conception.
+                            </td>
+                            <td>
+                                Cours 5 <br> 24 janvier 2022
+                            </td>
+                            <td>
+                                20%
+                            </td>
+                            <td>
+                                - 00ST-2 Préparer l’environnement de développement informatique. <br> - 00ST-4 Programmer l’interface web <br> - 00ST-7 Contrôler la qualité de l’application. <br>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>
+                                <b>Travail pratique 2</b><br>
+                                <u>Forme :</u> Projet web en HTML et CSS <br>
+                                <u>Critères d’évaluation :</u> <br> 2.1 Installation correcte de la plateforme de développement Web. <br> 2.2 Installation correcte des logiciels et des bibliothèques. <br> 4.1 Utilisation appropriée du langage de balisage.
+                                <br> 4.2 Création et utilisation appropriées des feuilles de styles. <br> 4.3 Intégration correcte des images. <br> 4.4 Adaptation de l’interface en fonction du format d’affichage et de la résolution.<br> 7.2 Revues de
+                                code et de sécurité rigoureuses.<br> 7.3 Pertinence des correctifs.<br> 7.5 Respect des documents de conception.<br>
+                            </td>
+                            <td>
+                                Cours 13 <br> 15 mars 2022
+                            </td>
+                            <td>
+                                35%
+                            </td>
+                            <td>
+                                - 00ST-2 Préparer l’environnement de développement informatique. <br> - 00ST-4 Programmer l’interface web.<br> - 00ST-7 Contrôler la qualité de l’application.<br>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>
+                                <b>Évaluation finale de cours</b><br>
+                                <u>Forme :</u> Programmation d’un site web en HTML, CSS et Javascript <br>
+                                <u>Critères d’évaluation :</u> <br> 2.1 Installation correcte de la plateforme de développement Web. <br> 2.2 Installation correcte des logiciels et des bibliothèques. <br> 2.4 Importation correcte du code source.<br> 4.1
+                                Utilisation appropriée du langage de balisage. <br> 4.2 Création et utilisation appropriées des feuilles de styles. <br> 4.3 Intégration correcte des images. <br> 4.4 Adaptation de l’interface en fonction du format d’affichage
+                                et de la résolution.
+                                <br> 6.1 Manipulation adéquate des objets du modèle DOM. <br> 6.2 Programmation correcte des interactions entre l’interface Web et l’utilisatrice ou l’utilisateur. <br> 6.3 Programmation et intégration adéquates d’animations
+                                ou de widgets.<br> 7.1 Application rigoureuse des plans de tests.<br> 7.2 Revues de code et de sécurité rigoureuses.<br> 7.3 Pertinence des correctifs.<br> 7.5 Respect des documents de conception.<br> 9.1 Détermination
+                                correcte de l’information à rédiger. <br> 9.2 Notation claire du travail effectué.<br>
+
+                            </td>
+                            <td>
+                                Cours 19 <br> 11 avril 2022
+                            </td>
+                            <td>
+                                45%
+                            </td>
+                            <td>
+                                - 00ST-2 Préparer l’environnement de développement informatique.<br> - 00ST-6 Programmer la logique applicative du côté client.<br> - 00ST-7 Contrôler la qualité de l’application.<br> - 00ST-9 Rédiger la documentation.
+                            </td>
+                        </tr>
+                    </table>
+                    <br>
+                    <br>
+                </div>
+                <!-- Ceci est la partie du contenu qui parle de Politiques -->
+                <div id="top_politiques">
+                    <br>
+                    <h1>5 - Politiques</h1><br>
+                    <br>
+                    <b>a) Politiques issues de la PIEA</b>
+                    <br>
+                    <br>
+                    <ul class="list_politiques">
+                        <li>
+                            <b> Absences aux examens</b><br> L'étudiant doit:
+                        </li>
+                        <br>
+                        <p>
+                            <b>1.7.1.3</b>
+                            <i>Informer son professeur en cas d’absence à un examen en cours de session et présenter 
+                            une preuve justificative. L’étudiant doit également convenir des modalités de reprise avec son 
+                            professeur ou se conformer aux modalités prévues au plan de cours. L’autorisation de reprise ne 
+                            sera accordée que pour un cas de force majeure, hors du contrôle de l’étudiant, confirmé par 
+                            une preuve (maladie grave, citation à comparaître devant un tribunal, décès d’un proche, 
+                            accident, etc.).</i><br>
+                        </p>
+                        <p>
+                            <b>1.7.1.4</b>
+                            <i>Informer la Direction des études ou le directeur adjoint de l'Institut en cas d’absence à 
+                            un examen final et présenter une preuve justificative. La Direction des études ou le directeur 
+                            adjoint de l’Institut fixe le moment de la reprise de l’examen dans les meilleurs délais. 
+                            L’autorisation de reprise ne sera accordée que pour un cas de force majeure hors de votre 
+                            contrôle confirmé par une preuve (maladie grave, citation à comparaître devant un tribunal, 
+                            décès d’un proche, etc.).</i>
+                        </p>
+                        <br>
+                        <li>
+                            <b>Retards dans la remise des travaux</b>
+                        </li>
+                        <br>
+                        <p>
+                            <b>2.3.3.1</b>
+                            <i>Pour les travaux dont le délai de production est d'une semaine (7 jours) ou moins, le 
+                            professeur peut refuser le travail et inscrire la note zéro.</i><br>
+                        </p>
+                        <p>
+                            <b>2.3.3.2</b>
+                            <i>Pour les travaux dont le délai de production est de plus d'une semaine (8 jours et plus), le 
+                            professeur peut enlever jusqu’à 10 % des points par jour de retard, incluant les jours de fin de 
+                            semaine.
+                            </i><br>
+                        </p>
+                        <br>
+                        <li>
+                            <b>Évaluation de la langue</b>
+                        </li>
+                        <br>
+                        <p>
+                            L’évaluation tient compte du français écrit, et ce jusqu’à 10% de la note finale.<br>
+                            <b>1.6.6.1</b>
+                            <i>L’étudiant doit présenter ses travaux et ses examens dans un français de qualité.</i><br>
+                        </p>
+                        <br>
+                        <li>
+                            <b>Le plagiat</b>
+                        </li>
+                        <br>
+                        <p>
+                            <b>3.3</b> Le plagiat (Dionne, 2013, p.199)<br>
+                            <i>Le plagiat est l’acte de faire passer pour siens des textes, des contenus, des réponses ou des idées 
+                            d’autrui, sans citer la source.</i><br>
+                        </p>
+                        <br>
+                        <p>
+                            <b>3.4</b> La fraude, la tricherie et la tentative de tricherie<br>
+                            <i>La fraude est un acte de tromperie qui vise l'obtention d'un avantage personnel, parfois au 
+                            détriment des autres.</i><br>
+                        </p>
+                        <br>
+                        <p>
+                            <b>3.5</b> Conséquences<br>
+                            <i>Tout plagiat, toute fraude, toute tentative de plagiat ou de fraude, toute coopération à un plagiat 
+                            ou à une fraude et toute présence de matériel non autorisé est passible de la note zéro pour 
+                            l’activité concernée et peut entraîner une réévaluation des résultats antérieurs. </i><br>
+                            <i>Les appareils électroniques, comme les téléphones cellulaires et les montres intelligentes, peuvent 
+                            contenir une foule d’informations (notes de cours, solutionnaires, formules, etc.) en plus de 
+                            permettre d’entrer en communication avec autrui. À moins d’une autorisation explicite du 
+                            professeur, leur utilisation est formellement interdite durant toute évaluation, sous peine de 
+                            sanction pour fraude. De façon préventive, durant les évaluations, les appareils électroniques 
+                            doivent être laissés à l’extérieur du local d’examens. Si un étudiant conserve sur lui un appareil 
+                            électronique lors d’une évaluation, il sera automatiquement convoqué par la direction des études 
+                            qui pourrait appliquer des sanctions. En cas de récidive, la direction des études pourrait 
+                            recommander des sanctions allant jusqu’au renvoi du collège.</i><br>
+                        </p>
+                    </ul>
+                    <br>
+                    <br>
+                    <br>
+
+                    <b>b)  Politiques de l’Institut</b>
+                    <br>
+                    <br>
+
+                    <ul class="list_politiques">
+                        <li>
+                            <b>  Politique de contenu</b>
+                        </li>
+                        <br> Sont à proscrire tous les contenus à caractère irrespectueux, diffamatoire ou explicite, qu'ils soient sexuels, racistes, religieux ou autres. Tout contenu devra être validé par le professeur avant d'être diffusé.
+                        <br>
+                        <br>
+                        <br>
+                        <li>
+                            <b>Politique d'enregistrement des cours</b>
+                        </li>
+                        <br> Il est strictement interdit d’enregistrer les cours sans l’autorisation écrite du professeur, que ce soit un enregistrement audio et/ou vidéo fait à partir d’un téléphone intelligent ou à l'aide de n’importe quel autre support.
+                        <br>
+                        <br>
+                        <br>
+                        <li>
+                            <b>Politique de comportement en classe</b>
+                        </li>
+                        <br>
+                        <p>
+                            L’étudiant(e) dont le comportement nuit au bon déroulement du cours pourra se voir refuser l’accès au cours et devra rencontrer le coordonnateur à cet effet. Seront considérés comme nuisibles au bon déroulement du cours :
+                            <br> -Manque de respect à l’égard de l’enseignant(e) ou des étudiants <br> -Non-respect des consignes de l’enseignant(e)<br> -Ne pas effectuer en classe le travail exigé par l’enseignant(e)<br> -Travailler en classe sur le
+                            contenu d’un autre cours<br> -Tout autre comportement jugé nuisible au bon déroulement du cours par l’enseignant(e)
+                        </p>
+                    </ul>
+                    <br>
+                    <br>
+                    <br>
+                    <!-- Ici, vous serez approché au sujet du matériel nécessaire pour le cours -->
+                    <h1>6 - Ouvrage(s) ou matériel requis pour ce cours</h1>
+                    <br>
+                    <b>Médiagraphie</b>
+                    <br>
+                    <br>
+                    <i>L’étudiant qui reçoit des fichiers numériques dans le cadre de son cours peut en imprimer une copie et 
+                    conserver ces fichiers numériques jusqu’à 30 jours après l’évaluation finale, mais il ne peut pas les 
+                    transmettre à quelqu'un d'autre, que ce soit sous forme numérique ou imprimée, ni en faire une 
+                    exploitation commerciale sous quelque support que ce soit.</i>
+                    <br>
+                    <br> Mozilla Developer Network :
+                    <br>
+                    <br>
+                    <br>
+                    <section class="lien_mediagraphie">
+                        <div class="lien_mozilla">
+                            <a href="https://developer.mozilla.org/fr/docs/Web/HTML">https://developer.mozilla.org/fr/docs/Web/HTML</a><br>
+                            <a href="https://developer.mozilla.org/fr/docs/Web/CSS">https://developer.mozilla.org/fr/docs/Web/CSS</a><br>
+                            <a href="https://developer.mozilla.org/fr/docs/Web/JavaScript">https://developer.mozilla.org/fr/docs/Web/JavaScript</a><br>
+                        </div>
+
+                        <div class="lien_w3">
+                            <a href="https://www.w3schools.com/html/">https://www.w3schools.com/html/</a><br>
+                            <a href="https://www.w3schools.com/css/">https://www.w3schools.com/css/</a><br>
+                            <a href="https://www.w3schools.com/js/">https://www.w3schools.com/js/</a><br>
+                            <a href="https://www.w3schools.com/jquery/">https://www.w3schools.com/jquery/</a>
+                        </div>
+                    </section>
+
+                    <br>
+                    <p>
+                        Draillard, Francis; <b><i>Premiers pas en CSS3 et HTML5 – </i></b> 8e édition, Groupe Eyrolles, 2019
+                        <br> <br> Olivier, Hondermack,
+                        <b><i>Tout Javascript: maîtrisez les Bases de la Programmation</i></b>, Dunod, 2019<br>
+                    </p>
+                </div>
+                <br>
+                <br>
+                <!-- Ici se termine la "div" du contenu spécifique -->
+            </div>
+            <!-- Ici se termine la "div" du contenu-->
+        </section>
+        <!-- Ici se termine la "section" du contenu-->
+    </section>
+</body>
+
+<!-- En "footer" on fait le pied de page de notre site -->
+<footer class="pied_de_page">
+    <p class="text"> © 2022 - Bianca Fernandes Nascimento </p>
+</footer>
+<!-- Ici se termine le pied de page du site-->
+
+</html>
