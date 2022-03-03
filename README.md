@@ -22,7 +22,8 @@ And here I leave a snippet of the presentation part:
 
 ![Tp_img3](https://user-images.githubusercontent.com/90284053/156653644-11e950a4-51a5-419c-a4bd-8161e08a171d.jpg)
 
-If you want to visit the site, please click on the link below:
-*Once I host the site, I'll put it here*
+If you want to visit the site, please click on the link below: 
+<br>
+https://bfn100.github.io/TP_Website/
 
 ##
